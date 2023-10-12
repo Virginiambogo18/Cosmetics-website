@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Cart</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+
+    <body>
+
+        <nav class="navbar">
+            <a href="index.html"><div class="logo"><h1>Ginny Cosmetics</h1></div></a>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cosmetics.html">Cosmetics</a></li>
+                <li><a href="account.html">Account</a></li>
+                <li><a href="" class="active"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+
+            <div class="menu-btn">
+                <i class="fa fa-bars"></i>
+            </div>
+        </nav>
+
+        <div class="small-container cart-page">
+
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <a href="Cosmetics.html"><img src="images/concealer.jpg"></a>
+                            <div>
+                                <p>Concealer</p>
+                                <small>Price: KES 1,082</small>
+                                <br>
+                                <a href="Cosmetics.html">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>KES 1,082</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <a href="Cosmetics.html"><img src="images/lip balm.jpg"></a>
+                            <div>
+                                <p>Lip balm</p>
+                                <small>Price: KES 546</small>
+                                <br>
+                                <a href="Cosmetics.html">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>KES 546</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <a href="Cosmetics.html"><img src="images/primer.jpg"></a>
+                            <div>
+                                <p>Primer</p>
+                                <small>Price: KES 1,365</small>
+                                <br>
+                                <a href="Cosmetics.html">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>KES 1,365</td>
+                </tr>
+            </table>
+
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>KES 2,993</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>KES 242 </td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>KES 3,325</td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+
+
+        <footer>
+            <p>Copyright at <a href="">Ginny Cosmetics</a></p>
+        </footer>
+    </body>
+</html>
